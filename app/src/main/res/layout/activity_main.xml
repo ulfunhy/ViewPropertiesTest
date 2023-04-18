@@ -8,6 +8,31 @@
     tools:context=".MainActivity">
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/btn_1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/btn_2"/>
+<!--    visibility="invisible"는 안보이지만 그 자리는 공백으로 남겨둠-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/btn_3"/>
+<!--    enabled="false" 비활성화 됨-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/btn_4"/>
+<!--    visibility="gone"는 안보이고 그 자리는 다음걸로 채워짐-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="@string/btn_5"/>
+<!--    clickable="false" 활성화 되어있는 것처럼 보이지만 비활성화 됨-->
 
 </LinearLayout>
