@@ -32,7 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="false"
-        android:text="@string/btn_5"/>
+        android:text="@string/btn_5"
+        android:rotation="180"/>
 <!--    clickable="false" 활성화 되어있는 것처럼 보이지만 비활성화 됨-->
+<!--    rotation="180" 실수로도 변경가능함-->
 
 </LinearLayout>
