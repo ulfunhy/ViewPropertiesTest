@@ -6,4 +6,9 @@
     <string name="btn_4">버튼 4</string>
     <string name="btn_5">버튼 5</string>
     <string name="TextView">여긴 텍스트뷰입니다.</string>
+    <string name="text_1">textSize 속성</string>
+    <string name="text_2">textColor 속성</string>
+    <string name="text_3">textStyle 속성</string>
+    <string name="text_4">typefcae 속성</string>
+    <string name="text_5">single 속성 single 속성 single 속성 single 속성</string>
 </resources>
